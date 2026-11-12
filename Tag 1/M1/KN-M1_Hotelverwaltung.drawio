@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="hotelverwaltung" name="Hotelverwaltung">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="KN-M1 | Hotelverwaltung" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;fontSize=28;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="15" width="700" height="40" />
+        </mxCell>
+        <mxCell id="hotel" value="" style="group;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="82" width="245" height="170" />
+        </mxCell>
+        <mxCell id="hotel-name" value="Hotel" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#EAF2FA;fontSize=17;fontStyle=1;align=center;" vertex="1" parent="hotel">
+          <mxGeometry as="geometry" x="0" y="0" width="245" height="36" />
+        </mxCell>
+        <mxCell id="hotel-attrs" value="- name: String&#10;- adresse: String&#10;- sterne: int" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=5;" vertex="1" parent="hotel">
+          <mxGeometry as="geometry" x="0" y="36" width="245" height="102" />
+        </mxCell>
+        <mxCell id="hotel-methods" value="" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;" vertex="1" parent="hotel">
+          <mxGeometry as="geometry" x="0" y="138" width="245" height="32" />
+        </mxCell>
+        <mxCell id="zimmer" value="" style="group;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="465" y="82" width="290" height="170" />
+        </mxCell>
+        <mxCell id="zimmer-name" value="Zimmer" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#EAF2FA;fontSize=17;fontStyle=1;align=center;" vertex="1" parent="zimmer">
+          <mxGeometry as="geometry" x="0" y="0" width="290" height="36" />
+        </mxCell>
+        <mxCell id="zimmer-attrs" value="- zimmernummer: String&#10;- etage: int&#10;- preisProNacht: Decimal" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=5;" vertex="1" parent="zimmer">
+          <mxGeometry as="geometry" x="0" y="36" width="290" height="102" />
+        </mxCell>
+        <mxCell id="zimmer-methods" value="" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;" vertex="1" parent="zimmer">
+          <mxGeometry as="geometry" x="0" y="138" width="290" height="32" />
+        </mxCell>
+        <mxCell id="bad" value="" style="group;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="925" y="82" width="240" height="170" />
+        </mxCell>
+        <mxCell id="bad-name" value="Badezimmer" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#EAF2FA;fontSize=17;fontStyle=1;align=center;" vertex="1" parent="bad">
+          <mxGeometry as="geometry" x="0" y="0" width="240" height="36" />
+        </mxCell>
+        <mxCell id="bad-attrs" value="- hatDusche: boolean&#10;- hatBadewanne: boolean&#10;- hatWC: boolean" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=5;" vertex="1" parent="bad">
+          <mxGeometry as="geometry" x="0" y="36" width="240" height="102" />
+        </mxCell>
+        <mxCell id="bad-methods" value="" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;" vertex="1" parent="bad">
+          <mxGeometry as="geometry" x="0" y="138" width="240" height="32" />
+        </mxCell>
+        <mxCell id="mitarbeiter" value="" style="group;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="402" width="290" height="170" />
+        </mxCell>
+        <mxCell id="mitarbeiter-name" value="Mitarbeiter" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#EAF2FA;fontSize=17;fontStyle=1;align=center;" vertex="1" parent="mitarbeiter">
+          <mxGeometry as="geometry" x="0" y="0" width="290" height="36" />
+        </mxCell>
+        <mxCell id="mitarbeiter-attrs" value="- personalnummer: String&#10;- name: String&#10;- funktion: String" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=5;" vertex="1" parent="mitarbeiter">
+          <mxGeometry as="geometry" x="0" y="36" width="290" height="102" />
+        </mxCell>
+        <mxCell id="mitarbeiter-methods" value="" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;" vertex="1" parent="mitarbeiter">
+          <mxGeometry as="geometry" x="0" y="138" width="290" height="32" />
+        </mxCell>
+        <mxCell id="ausstattung" value="" style="group;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="465" y="402" width="345" height="145" />
+        </mxCell>
+        <mxCell id="ausstattung-name" value="Ausstattungsgegenstand" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#EAF2FA;fontSize=17;fontStyle=1;align=center;" vertex="1" parent="ausstattung">
+          <mxGeometry as="geometry" x="0" y="0" width="345" height="36" />
+        </mxCell>
+        <mxCell id="ausstattung-attrs" value="- bezeichnung: String&#10;- seriennummer: String" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=5;" vertex="1" parent="ausstattung">
+          <mxGeometry as="geometry" x="0" y="36" width="345" height="77" />
+        </mxCell>
+        <mxCell id="ausstattung-methods" value="" style="rounded=0;whiteSpace=wrap;html=0;strokeWidth=1.5;strokeColor=#20394F;fontFamily=Arial;fontColor=#243447;fillColor=#FFFFFF;" vertex="1" parent="ausstattung">
+          <mxGeometry as="geometry" x="0" y="113" width="345" height="32" />
+        </mxCell>
+        <mxCell id="hz" style="edgeStyle=none;rounded=0;html=0;endArrow=none;strokeColor=#20394F;strokeWidth=1.8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=diamond;startSize=15;startFill=1;" edge="1" parent="1" source="hotel" target="zimmer">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="hz-label" value="besteht aus" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="306" y="131" width="130" height="25" />
+        </mxCell>
+        <mxCell id="hz-source" value="1" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="244" y="173" width="130" height="25" />
+        </mxCell>
+        <mxCell id="hz-target" value="1..*" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="369" y="173" width="130" height="25" />
+        </mxCell>
+        <mxCell id="zb" style="edgeStyle=none;rounded=0;html=0;endArrow=none;strokeColor=#20394F;strokeWidth=1.8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=diamond;startSize=15;startFill=1;" edge="1" parent="1" source="zimmer" target="bad">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="zb-label" value="besitzt" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="775" y="131" width="130" height="25" />
+        </mxCell>
+        <mxCell id="zb-source" value="1" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="719" y="173" width="130" height="25" />
+        </mxCell>
+        <mxCell id="zb-target" value="1" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="835" y="173" width="130" height="25" />
+        </mxCell>
+        <mxCell id="hm" style="edgeStyle=none;rounded=0;html=0;endArrow=none;strokeColor=#20394F;strokeWidth=1.8;exitX=0.5;exitY=1;entryX=0.4224137931;entryY=0;startArrow=none;" edge="1" parent="1" source="hotel" target="mitarbeiter">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="hm-label" value="beschäftigt" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="154" y="311" width="130" height="25" />
+        </mxCell>
+        <mxCell id="hm-source" value="0..1" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="122" y="260" width="130" height="25" />
+        </mxCell>
+        <mxCell id="hm-target" value="1..*" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="122" y="371" width="130" height="25" />
+        </mxCell>
+        <mxCell id="za" style="edgeStyle=none;rounded=0;html=0;endArrow=none;strokeColor=#20394F;strokeWidth=1.8;exitX=0.5;exitY=1;entryX=0.4202898551;entryY=0;startArrow=diamond;startSize=15;startFill=0;" edge="1" parent="1" source="zimmer" target="ausstattung">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="za-label" value="enthält" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="595" y="311" width="130" height="25" />
+        </mxCell>
+        <mxCell id="za-source" value="0..1" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="576" y="277" width="130" height="25" />
+        </mxCell>
+        <mxCell id="za-target" value="0..*" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=center;fontSize=14;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="576" y="371" width="130" height="25" />
+        </mxCell>
+        <mxCell id="note" value="Modellannahmen&#10;Mitarbeiter und Ausstattung:&#10;jeweils höchstens einem Hotel&#10;bzw. Zimmer zugeordnet.&#10;&#10;Keine Pfeile: Navigation offen." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=left;fontSize=14;fillColor=#F6F8FB;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="900" y="402" width="265" height="170" />
+        </mxCell>
+        <mxCell id="legend" value="Gefüllte Raute = Komposition   |   Leere Raute = Aggregation   |   Linie = Assoziation" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=left;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="608" width="1130" height="30" />
+        </mxCell>
+        <mxCell id="foot" value="Alle Attribute privat. Methodenbereich leer: In der Beschreibung sind keine Operationen vorgegeben.&#10;1 = genau eins   |   0..1 = optional, höchstens eins   |   1..* = mindestens eins   |   0..* = beliebig viele" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=hidden;fontFamily=Arial;fontSize=14;fontColor=#243447;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="650" width="1130" height="54" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
