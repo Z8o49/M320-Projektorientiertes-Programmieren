@@ -1,0 +1,29 @@
+@startuml
+hide footbox
+skinparam shadowing false
+skinparam sequenceMessageAlign center
+title TechSupportApp · Eine Druckeranfrage beantworten
+actor Benutzer as B
+participant "supportSystem : SupportSystem" as S
+participant "reader : InputReader" as I
+participant "reader : Scanner" as K
+participant "responder : Responder" as R
+note over S : start() läuft bereits.
+S -> I : getInput()
+activate I
+I -> B : Eingabeaufforderung ">"
+I -> K : nextLine()
+activate K
+B -> K : Mein Drucker streikt
+K --> I : "Mein Drucker streikt"
+deactivate K
+I --> S : "Mein Drucker streikt"
+deactivate I
+note over S : Der Text beginnt nicht mit "exit".
+S -> R : generateResponse(input)
+activate R
+note over R : "PC" und "Hilfe" fehlen.\n"Drucker" trifft zu.
+R --> S : "Haben sie dem Drucker alles gegeben was er braucht?"
+deactivate R
+S -> B : Antwort auf der Konsole anzeigen
+@enduml
